@@ -1,0 +1,147 @@
+div.static{
+    width: 150px;
+    position: static;
+    border: 1px solid black;
+    background-color: rgb(176, 244, 4);
+    text-align: center;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+div.relative{
+    width: 150px;
+    position: relative;    
+    left: 900px;
+    border: 1px solid black;
+    background-color: brown;
+    text-align: center;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+div.Fixed{
+    width: 150px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    border: 1px solid black;
+    background-color: rgb(243, 0, 227);
+    text-align: center;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+div.contain{
+    position: relative;
+    width: 400px;
+    height: 100px;
+    left: 400px;
+    border: 1px solid black;
+    background-color: darkturquoise;
+    
+}
+
+div.absolute{
+    width: 150px;
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    border: 1px solid black;
+    background-color: rgb(253, 40, 3);
+    text-align: center;
+    margin: 10px;
+}
+
+div.sticky{
+    width: 150px;
+    position: sticky;
+    top: 0px;
+    left: 1200px;
+    border: 1px solid black;
+    background-color: rgb(21, 37, 185);
+    text-align: center;
+    margin: 10px;
+}
+
+.wrap{
+    width: 300px;
+    border: 1px solid red;
+    height: 200px;
+    background-color: coral;
+    position: relative;
+}
+
+.mobile{
+    position: absolute;
+    width: 45px;
+    height: 65px;
+    border: 1px solid red;
+    background-color: blueviolet;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    z-index: 3;
+}
+
+.tab{
+    position: absolute;
+    width: 110px;
+    height: 85px;
+    border: 1px solid rgb(17, 2, 224);
+    background-color: rgb(232, 66, 5);
+    right: 40px;
+    bottom: 40px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
+}
+.desktop{
+    position: absolute;
+    width: 160px;
+    height: 110px;
+    border: 1px solid rgb(224, 2, 150);
+    background-color: rgb(153, 232, 5);
+    right: 80px;
+    bottom: 40px;
+    border-radius: 20px;
+    padding: 20px;
+   
+}
+
+p.hidden{
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 20px;
+    overflow: hidden;
+}
+
+p.scroll{
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 20px;
+    overflow-y: scroll;
+}
+
+p.auto{
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 20px;
+    overflow: auto;
+}
+
+p.visible{
+    width: 300px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 20px;
+}
+
+H2{
+    text-align: center;
+    font-size: 40px;
+}

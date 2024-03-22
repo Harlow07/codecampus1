@@ -1,0 +1,54 @@
+h1{
+    font-family: "Madimi One", sans-serif;
+    font-style: oblique;
+    text-align: center;
+    font-size: 70px;
+   
+}
+
+.td{
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+.button{
+    border: 1px solid green;
+    text-decoration: none;
+    padding: 10px;
+    background-color: green;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px blueviolet;
+    color: white;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: yellow;
+    background-color: gray;
+}
+
+a:active{
+    color: red;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li a{
+    text-decoration: none;
+}
+
+ol{
+    list-style-type:lower-alpha;
+}

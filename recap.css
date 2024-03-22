@@ -1,0 +1,35 @@
+body{
+    background: url();
+   
+}
+
+p{
+    color: rgb(0, 0, 255);
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-width: 2px 4px 6px 8px;
+    border-style: dashed dotted double solid;
+    border-color: blueviolet brown transparent blue;
+}
+
+
+div{
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+h3{
+    border-top: 4px solid red;
+    width: 300px;
+    text-align: center;
+    border-right: 4px solid green;
+    border-left: 4px solid brown;
+    height: 200px;
+
+}

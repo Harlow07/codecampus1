@@ -1,0 +1,36 @@
+(function () {
+
+    try {
+
+        if (!window.sessionStorage) {
+            return;
+        }
+
+        if (sessionStorage.getItem("cio_referrer") !== null) {
+            return;
+        }
+
+        var referrer = document.referrer;
+
+        if (!referrer) {
+            return;
+        }
+
+        var parser1 = document.createElement("a"),
+            parser2 = document.createElement("a");
+
+        parser1.href = referrer;
+        parser2.href = location.href;
+
+        if (parser1.hostname !== parser2.hostname) {
+            sessionStorage.setItem("cio_referrer", referrer);
+            console.warn('[CIO] referrer = ', referrer);
+        }
+
+    } catch (e) {
+        console.error('[CIO] failed to set referrer');
+        console.error(e);
+    }
+
+
+})();

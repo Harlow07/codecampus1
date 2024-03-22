@@ -1,0 +1,42 @@
+/* Inline */
+span,a{
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    display: inline-block;
+}
+
+
+
+.nested{
+    width: 400px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.width{
+    width: 600px;
+    height: 100px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 15px;
+    background-color: blue;
+}
+.min-width{
+    min-width: 600px;
+    height: 100px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 15px;
+    background-color: rgb(43, 176, 20);
+}
+.max-width{
+    max-width: 600px;
+    height: 100px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 15px;
+    background-color: rgb(176, 20, 56);
+}

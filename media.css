@@ -1,0 +1,37 @@
+p{
+    color: blue;
+}
+
+        /* this is for mobile */
+@media screen and (Min-Width: 282px) and (max-width: 684px) {
+    p{
+        color: red;
+        font-size: 30px;
+        text-align: center;
+        line-height: 55px;
+    };
+}
+
+@media screen and (Min-Width: 685px) and (max-width: 885px) {
+    p{
+        color: green;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 25px;
+    }
+    
+}
+
+@media screen and (Min-Width: 886px) and (max-width: 1007px) {
+    p{
+        color: rgb(241, 3, 58);
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        line-height: 25px;
+    }
+    
+}
+
+body{
+    background-color: rgb(234, 247, 237);
+}

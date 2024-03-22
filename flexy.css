@@ -1,0 +1,73 @@
+.CenterMe {
+    background-color: indigo;
+    color: #ebebeb;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+   /* Creating Navigation */
+
+   .MenuWrap {
+    background-color: rgb(46, 130, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+   }
+
+   .ListItem,
+   .LastItem {
+    color: #ebebeb;
+    text-decoration: none;
+   }
+   .ListItem {
+    margin-right: 1rem;
+   }
+   
+   .LastItem {
+    margin-left: auto;
+    background-color: rgb(212, 191, 7);
+    border-radius: 4px;
+    padding: 8px;
+   }
+
+   .InlineFlex {
+    display: inline-flex;
+    align-items: center;
+    height: 120px;
+    padding: 0 4px;
+    background-color: rgb(5, 172, 50);
+    text-decoration: none;
+    border-radius: 3px;
+    color: #ddd;
+   }
+
+   .FlexWrapper {
+    background-color: rgb(255, 8, 3);
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: space-evenly;
+   }
+
+   .FlexItem {
+    background-color: #fdf006;
+    display: flex;
+    height: 100px;
+    flex: 0 0 25%;
+    
+}
+
+.flex-one{
+    flex: 1;
+    background-color: #514d0a;
+}
+   
+  
